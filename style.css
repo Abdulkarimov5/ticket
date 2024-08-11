@@ -172,3 +172,61 @@ button {
     background-color: rgb(20, 20, 41);
 }
 
+.support {
+    width: 900px;
+    height: 400px;
+    margin: 0 auto 100px auto;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px;
+    column-gap: 15px;
+}
+
+.item-1-1 {
+    grid-area: 1/1/1/1;
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 150px 150px;
+    margin-top: 1em;
+}
+
+.item-2-1 {
+    grid-area: 1/2/1/2;
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 150px 150px;
+    margin-top: 1em;
+}
+
+.item-3-1 {
+    grid-area: 1/3/1/3;
+    border: 1px solid wheat;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 150px 150px;
+    margin-top: 1em;
+}
+
+.support-1 {
+    grid-area: 1/1/1/1;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.support-2 {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.support-3 {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
